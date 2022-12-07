@@ -2,3 +2,10 @@ appPort: 8080
 appName: shipping
 externalSecrets:
   enabled: true
+resources:
+   limits:
+     cpu: 1000m
+     memory: 512Mi
+   requests:
+     cpu: 500m
+     memory: 256Mi
